@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0a0d12">
+  <title>TON Market | خرید بسته ۵ TON</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="top"><a class="logo" href="/">TON<span>MARKET</span></a><span class="secure">خرید امن</span></header>
+<main class="wrap">
+  <section class="hero">
+    <div class="coin">TON</div>
+    <p class="eyebrow">خرید ساده و سریع</p>
+    <h1>بسته <span>۵ TON</span></h1>
+    <p class="muted">اطلاعات را وارد کنید و برای پرداخت به درگاه بانکی هدایت شوید.</p>
+    <div class="pricebox"><span>مبلغ قابل پرداخت</span><strong id="total">در حال دریافت قیمت…</strong><small id="priceNote">قیمت نهایی پیش از پرداخت نمایش داده می‌شود.</small></div>
+  </section>
+  <section class="checkout">
+    <h2>اطلاعات سفارش</h2>
+    <form id="buyForm">
+      <label for="deviceId">شناسه دستگاه</label>
+      <input id="deviceId" name="deviceId" autocomplete="off" readonly required placeholder="از داخل برنامه منتقل می‌شود">
+      <p class="hint" id="deviceHint">برای خرید، این صفحه را از دکمه خرید داخل برنامه باز کنید.</p>
+      <label for="phone">شماره موبایل</label>
+      <input id="phone" name="phone" inputmode="tel" autocomplete="tel" placeholder="مثلاً 09xxxxxxxxx" maxlength="20" required>
+      <button class="button" id="payBtn" type="submit">ادامه و پرداخت</button>
+      <p class="fine">پس از تأیید پرداخت، سفارش بررسی می‌شود و کد فعال‌سازی به‌صورت دستی برای شما ارسال خواهد شد.</p>
+      <div id="message" role="status"></div>
+    </form>
+  </section>
+  <footer>پرداخت فقط پس از اتصال و تأیید درگاه فعال است.</footer>
+</main>
+<script src="/app.js"></script>
+</body></html>
